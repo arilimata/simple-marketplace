@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <Flex justify={"between"} className="p-2">
       <Flex align={"center"} gap="4" width={"100vw"}>
-        <Image src="/market.svg" alt="MyMarketplace" width={40} height={40} />
+        <Image src="/icon/market.svg" alt="MyMarketplace" width={40} height={40} />
         <h1>My Marketplace</h1>
       </Flex>
 
@@ -22,7 +22,7 @@ const Navbar = () => {
       </Flex>
 
       <Flex justify={"end"} align={"center"} gap="2" width={"100vw"}>
-        <Image src="/profile.svg" alt="Profile" width={30} height={30}/>
+        <Image src="/icon/profile.svg" alt="Profile" width={30} height={30}/>
         <Text>My Profile</Text>
       </Flex>
     </Flex>

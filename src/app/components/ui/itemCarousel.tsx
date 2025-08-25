@@ -36,8 +36,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <div
               className="embla__slide flex items-center justify-center"
               key={index}
-            >
-              
+            > 
               <Image
               src={link}
               alt={`Slide ${index + 1}`}
@@ -65,19 +64,3 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
 };
 
 export default EmblaCarousel;
-// export default ItemCarousel;
-{
-  /* {links.map((link, index) => (
-            <div
-              className="embla__slide flex items-center justify-center"
-              key={index}
-            >
-              <Image
-                src={link}
-                alt={`Slide ${index + 1}`}
-                width={width}
-                height={height}
-              />
-            </div>
-          ))} */
-}
